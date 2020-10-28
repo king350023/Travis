@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+
+      {% include header.html %}
+
+      <div id="content" class="row">
+
+        {% include sidebar.html %}
+
+        <main id="main" class="main" data-swiftype-index='true'>
+          {% unless page.no_header %}
+            <h1 class="title">{{ page.title }}</h2>
+          {% endunless %}
+          {{ content }}
+        </main>
+      </div><!-- /#content -->
+
+      {% include footer.html %}
+    </div><!-- /.wrapper -->
+  </body>
+</html>

@@ -1,0 +1,8 @@
+language: ruby
+sudo: false
+rvm:
+  - 1.9.3
+branches:
+  only:
+      - gh-pages
+cache: bundler
