@@ -17,3 +17,5 @@ source/tmp/*
 tmp/
 api/
 user/notifications.md
+*.js
+ckplayer.js

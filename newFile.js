@@ -1,0 +1,13 @@
+<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8" data-name="ckplayer"></script>
+    ,
+    <div class="video" style="width: 600px;height: 400px;"></div>
+    ,
+    <script type="text/javascript">
+        //定义一个变量：videoObject，用来做为视频初始化配置
+    var videoObject = {container}: '.video', //“#”代表容器的ID，“.”或“”代表容器的class
+	variable: 'player', //播放函数名称，该属性必需设置，值等于下面的new ckplayer()的对象
+	video: 'http://ckplayer-video.oss-cn-shanghai.aliyuncs.com/sample-mp4/05cacb4e02f9d9e.mp4'//视频地址
+    &rbrace;;
+    var player = new ckplayer(videoObject);//初始化播放器
+                </script>;
+ 
