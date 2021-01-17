@@ -1,0 +1,5 @@
+{
+    "git.autofetch": true,
+    "editor.wordWrap": "on",
+    "merge-conflict.autoNavigateNextConflict.enabled": true
+}
